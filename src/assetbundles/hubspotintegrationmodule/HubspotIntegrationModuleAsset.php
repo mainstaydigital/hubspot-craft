@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2022 Mainstay Digital
  */
 
-namespace Beck\Hubspotintegrationmodule\assetbundles\hubspotintegrationmodule;
+namespace mainstaycraft\Hubspotintegrationmodule\assetbundles\hubspotintegrationmodule;
 
 use Craft;
 use craft\web\AssetBundle;

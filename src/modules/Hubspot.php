@@ -1,5 +1,5 @@
 <?php
-namespace Beck\Hubspotintegrationmodule\modules;
+namespace mainstaycraft\Hubspotintegrationmodule\modules;
 
 require 'vendor/autoload.php';
 use craft\commerce\elements\Order;

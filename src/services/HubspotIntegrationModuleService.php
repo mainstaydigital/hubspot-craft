@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2022 Mainstay Digital
  */
 
-namespace Beck\Hubspotintegrationmodule\services;
+namespace mainstaycraft\Hubspotintegrationmodule\services;
 
-use Beck\Hubspotintegrationmodule\HubspotIntegrationModule;
+use mainstaycraft\Hubspotintegrationmodule\HubspotIntegrationModule;
 
 use Craft;
 use craft\base\Component;

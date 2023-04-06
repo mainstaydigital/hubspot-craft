@@ -16,7 +16,7 @@ return [
     'modules' => [
         'hubspot' => \modules\Hubspot::class,
         'hubspot-integration-module' => [
-            'class' => \Beck\Hubspotintegrationmodule\HubspotIntegrationModule::class,
+            'class' => \mainstaycraft\Hubspotintegrationmodule\HubspotIntegrationModule::class,
             'components' => [
                 'hubspotIntegrationModuleService' => [
                     'class' => 'modules\hubspotintegrationmodule\services\HubspotIntegrationModuleService',

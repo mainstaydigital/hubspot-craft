@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2022 Mainstay Digital
  */
 
-namespace Beck\Hubspotintegrationmodule;
+namespace mainstaycraft\Hubspotintegrationmodule;
 
-use Beck\Hubspotintegrationmodule\assetbundles\hubspotintegrationmodule\HubspotIntegrationModuleAsset;
-use Beck\Hubspotintegrationmodule\services\HubspotIntegrationModuleService as HubspotIntegrationModuleServiceService;
+use mainstaycraft\Hubspotintegrationmodule\assetbundles\hubspotintegrationmodule\HubspotIntegrationModuleAsset;
+use mainstaycraft\Hubspotintegrationmodule\services\HubspotIntegrationModuleService as HubspotIntegrationModuleServiceService;
 
 use Craft;
 use craft\events\RegisterTemplateRootsEvent;

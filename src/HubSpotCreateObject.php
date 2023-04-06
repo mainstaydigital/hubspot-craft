@@ -10,7 +10,7 @@ function createCustomObject()
 
     $properties1 = [
         'name' => 'Mainstay Digital',
-        'email' => 'beck@sample.com',
+        'email' => 'mainstaycraft@sample.com',
         'phone' => '15724800',
         'products' => ['option_1', 'option_2', 'option_3'],
         'prices' => ['option_1', 'option_2', 'option_3'],
