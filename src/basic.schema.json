@@ -1,0 +1,79 @@
+{
+  "associatedObjects": [
+    "CONTACT"
+  ],
+  "labels": {
+    "singular": "User",
+    "plural": "Users"
+  },
+  "name": "users",
+  "primaryDisplayProperty": "name",
+  "properties": [
+    {
+      "name": "name",
+      "label": "Customer name",
+      "type": "string",
+      "fieldType": "text"
+    },
+    {
+      "name": "email",
+      "label": "Customer email",
+      "type": "string",
+      "fieldType": "text"
+    },
+    {
+      "name": "phone",
+      "label": "Customer phone number",
+      "type": "string",
+      "fieldType": "text"
+    },
+    {
+      "name": "products",
+      "label": "Products purchased",
+      "type": "string",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "prices",
+      "label": "Product prices",
+      "type": "string",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "order_total",
+      "label": "Order total",
+      "type": "number",
+      "fieldType": "number"
+    },
+    {
+      "name": "shipping_cost",
+      "label": "Shipping cost",
+      "type": "number",
+      "fieldType": "number"
+    },
+    {
+      "name": "date_purchased",
+      "label": "Date purchased",
+      "type": "date",
+      "fieldType": "date"
+    }
+  ],
+  "requiredProperties": [
+    "name",
+    "email",
+    "products",
+    "prices",
+    "order_total",
+    "shipping_cost"
+  ],
+  "searchableProperties": [
+    "name",
+    "email",
+    "date_purchased"
+  ],
+  "secondaryDisplayProperties": [
+    "order_total"
+  ]
+}

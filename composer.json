@@ -1,0 +1,22 @@
+{
+    "name": "beck/hubspotintegrationmodule",
+    "description": "Custom integration Craft eCommerce CMS and Hubspot",
+    "type": "project",
+    "require": {
+        "hubspot/api-client": "^8.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Beck\\Hubspotintegrationmodule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mainstay Digital",
+            "email": "47065940+bekmuradov@users.noreply.github.com"
+        }
+    ]
+}
